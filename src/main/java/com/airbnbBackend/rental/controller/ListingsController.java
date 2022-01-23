@@ -50,6 +50,7 @@ public class ListingsController {
 	}
 	
 	
+	//Retrieve listing by name
 	@GetMapping("listings/propertyName/{name}")
 	public ResponseEntity <Listing> getListingByName(@PathVariable(value = "name") String name) {
 		Listing listing = listingsRepository.findByName(name);
