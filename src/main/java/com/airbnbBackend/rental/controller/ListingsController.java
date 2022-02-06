@@ -28,7 +28,7 @@ import com.airbnbBackend.rental.repository.ListingsRepository;
  *
  */
 @RestController
-@CrossOrigin(origins = "http://localhost:8080")
+@CrossOrigin(origins = "http://localhost:3000")
 @RequestMapping("/listingsAndReviews/v1")
 public class ListingsController {
 	
