@@ -54,5 +54,12 @@ public class Listing {
 		this.propertyType = propertyType;
 	}
 	
+	public String getId() {
+		return id;
+	}
+	public void setId(String id) {
+		this.id = id;
+	}
+	
 	
 }
